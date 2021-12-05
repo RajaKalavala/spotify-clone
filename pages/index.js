@@ -1,11 +1,11 @@
 import Head from "next/head";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1> This is Spotify Clone </h1>
+    <div className="bg-black h-screen overflow-hidden">
       <main>
-        {/* Sidebar */}
+        <Sidebar></Sidebar>
         {/* Center */}
       </main>
 
